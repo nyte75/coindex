@@ -6,7 +6,7 @@ program
 .description("Check prices of coins")
 .option('--coin <type>',
     'Add specific coin types in CSV format', 
-    'BTC, ETH, XRP'
+    'BTC, ETH, USDT'
 )
 .option('--cur <currency>', 
     "Change the currency", 
